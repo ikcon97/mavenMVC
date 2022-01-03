@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+#board {
+	border: dotted 0px red;
+	width: 400px;
+	height: 390px;
+	margin: 0px auto;
+}
+
+#board>.list {
+	border: solid 0px blue;
+	width: 400px;
+	height: 30px;
+	font-size: 10px;
+	text-align: right;
+	line-height: 30px;
+}
+
+#board>.form_style>.graph {
+	border: solid 0px pink;
+	width: 400px;
+	height: 390px;
+	
+}
+
+#board>.form_style>.graph>.row {
+	border: solid 0px cyan;
+	width: 402px;
+	height: 30px;
+	line-height: 30px;
+}
+
+#board>.form_style>.graph>.row2{
+	border: solid 0px cyan;
+	width: 402px;
+	height: 180px;
+	line-height: 180px;
+}
+
+#board>.form_style>.graph>.row3{
+	border: solid 2px black;
+	width: 394px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	clear:left;
+	border-top-width:0px;
+}
+
+
+#board>.form_style>.graph>.row>.title {
+	border: solid 2px black;
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	display:block;
+	float:left;
+	border-bottom-width:0px;
+	border-right-width: 0px;
+}
+
+#board>.form_style>.graph>.row2>.title2 {
+	border: solid 2px black;
+	width: 80px;
+	height: 180px;
+	line-height: 180px;
+	display:block;
+	float:left;
+	border-bottom-width:0px;
+	border-right-width: 0px;
+}
+
+#board>.form_style>.graph>.row>.contents {
+	border: solid 2px black;
+	width: 330px;
+	height: 30px;
+	line-height: 30px;
+	display:block;
+	float:left;
+	border-bottom-width:0px;
+	padding-left:2px;
+}
+
+#board>.form_style>.graph>.row2>.contents2 {
+	border: solid 2px black;
+	width: 310px;
+	height: 180px;
+	line-height: 180px;
+	display:block;
+	float:left;
+	border-bottom-width:0px;
+	padding-left:2px;
+}
+

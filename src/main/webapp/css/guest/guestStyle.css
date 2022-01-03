@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+#form_style {
+	border: solid 0px red;
+	width: 410px;
+	height: 240px;
+	margin: 100px auto;
+}
+
+#form_style .title {
+	border: solid 0px blue;
+	width: 400px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+}
+
+#form_style .content{
+	border: solid 0px blue;
+	width: 400px;
+	height: 150px;
+}
+
